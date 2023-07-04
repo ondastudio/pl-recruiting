@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", () => {
     slideActiveClass: "is-active",
     slideToClickedSlide: true,
     slidesPerView: "auto",
-    keyboard: true
+    keyboard: true,
+    navigation: {
+      nextEl: ".swiper-arrow.is-next",
+      prevEl: ".swiper-arrow.is-prev"
+    }
   });
 
   if (window.innerWidth < 992) {
