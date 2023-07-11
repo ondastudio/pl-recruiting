@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (sk.pause) sk.noLoop();
       else sk.loop();
 
-      sk.background(255);
+      sk.clear();
       t += 0.02;
 
       sk.translate(sk.width * 0.5, sk.height * 0.5);
