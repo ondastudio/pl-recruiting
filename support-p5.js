@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", () => {
         maxH = dim * 0.78;
       }
 
-      sk.background(255);
+      sk.clear();
       sk.noFill();
       sk.stroke(22, 22, 30);
-      sk.strokeWeight(dim * 0.00075);
+      sk.strokeWeight(dim * 0.001);
     };
 
     sk.draw = () => {
